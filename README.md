@@ -1,4 +1,4 @@
-open music sheet box bounding
+open music sheet box bounding v1.0
 ======================
 The goald of this project's to find bounding boxes into a music sheet.<br />
 You'll have the possibility to either implement my API in your code and receive an array of bounding box or write them into a file.
@@ -24,9 +24,6 @@ Apply optic flow in realtime from webcam flux, previsualize and save the flux.<b
 cd src
 python3 src/sheet_to_bounding_box.py data/images/page0.jpg
 ```
-## Illustration
-
-![](https://github.com/Cjdcoy/openmsbb/blob/master/data/demo.gif)
 
 ## Features
 
@@ -35,4 +32,14 @@ python3 src/sheet_to_bounding_box.py data/images/page0.jpg
 - [x] .threading
 - [ ] .return bounding boxes
 - [ ] .write bouding boxes into file
+
+
+## Examples 
+### 1 thread
+
+![](https://github.com/Cjdcoy/openmsbb/blob/master/data/demo.gif)
+
+### 4 threads
+
+![](https://github.com/Cjdcoy/openmsbb/blob/master/data/demo2.gif)
 
