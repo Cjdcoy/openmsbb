@@ -21,7 +21,6 @@ Each solution has many configuration parameters that you can see using ```-h``` 
 #### Examples:
 Apply optic flow in realtime from webcam flux, previsualize and save the flux.<br /> 
 ```
-cd src
 python3 src/sheet_to_bounding_box.py data/images/page0.jpg
 ```
 
@@ -30,7 +29,7 @@ python3 src/sheet_to_bounding_box.py data/images/page0.jpg
 - [x] .images
 - [x] .pdfs
 - [x] .threading
-- [ ] .return bounding boxes
+- [x] .return bounding boxes
 - [ ] .write bouding boxes into file
 
 
