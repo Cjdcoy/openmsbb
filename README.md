@@ -14,9 +14,9 @@ bash build.bash
 
 ## Usage
 
-The script cap be found in src/
+The script can be found in src/
 
-### 1 - run solution1
+### run solution
 Each solution has many configuration parameters that you can see using ```-h``` flag
 #### Examples:
 Apply optic flow in realtime from webcam flux, previsualize and save the flux.<br /> 
@@ -24,7 +24,9 @@ Apply optic flow in realtime from webcam flux, previsualize and save the flux.<b
 cd src
 python3 src/sheet_to_bounding_box.py data/images/page0.jpg
 ```
+## Illustration
 
+![](https://github.com/Cjdcoy/openmsbb/blob/master/data/demo.gif)
 
 ## Features
 
@@ -34,5 +36,3 @@ python3 src/sheet_to_bounding_box.py data/images/page0.jpg
 - [ ] .return bounding boxes
 - [ ] .write bouding boxes into file
 
-
-![](https://github.com/Cjdcoy/openmsbb/blob/master/data/demo.gif)
