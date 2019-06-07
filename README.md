@@ -16,12 +16,10 @@ bash build.bash
 
 The script can be found in src/
 
-### run solution
-Each solution has many configuration parameters that you can see using ```-h``` flag
 #### Examples:
 Apply optic flow in realtime from webcam flux, previsualize and save the flux.<br /> 
 ```
-python3 src/sheet_to_bounding_box.py data/images/page0.jpg
+python3 src/sheet_to_bounding_box.py data/images/page0.jpg [nb threads]
 ```
 
 ## Features
