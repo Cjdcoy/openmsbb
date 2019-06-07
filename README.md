@@ -35,4 +35,4 @@ python3 src/sheet_to_bounding_box.py data/images/page0.jpg
 - [ ] .write bouding boxes into file
 
 
-![](https://github.com/Cjdcoy/openmsbb/data/demo.gif)
+![](https://github.com/Cjdcoy/openmsbb/blob/master/data/demo.gif)
