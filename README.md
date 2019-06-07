@@ -1,6 +1,6 @@
 open music sheet box bounding v1.0
 ======================
-The goald of this project's to find bounding boxes into a music sheet.<br />
+The goal of this project's to find bounding boxes into a music sheet.<br />
 You'll have the possibility to either implement my API in your code and receive an array of bounding box or write them into a file.
 
 ## Easy dependencies installer
